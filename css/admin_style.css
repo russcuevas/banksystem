@@ -1,0 +1,127 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.sidebar {
+    width: 250px;
+    border-right: 1px solid black;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: #3498db;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidebar a {
+    display: block;
+    color: white;
+    font-weight: 900;
+    padding: 16px;
+    text-decoration: none;
+    border-bottom: 1px solid black;
+}
+
+.sidebar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.sidebar-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid black;
+}
+
+.sidebar-title img {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.sidebar-title h3 {
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+#sidebar-container {
+    display: none;
+}
+
+#sidebar-container.open {
+    display: block;
+}
+
+.main {
+    margin-left: 250px;
+    padding: 0px;
+}
+
+.profile {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+  right: 0;
+}
+
+.dropdown a {
+  display: block;
+}
+
+.profile.show .dropdown {
+  display: block;
+}
+
+.profile.show .dropdown a {
+  display: inline-block;
+}
+
+
+
+.header {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3498db;
+    padding: 22px;
+    text-align: left;
+}
+
+.header h4 {
+    margin: 0;
+}
+
+.header i {
+    margin-left: auto;
+}
+
+
+.card {
+    margin-top: 20px;
+}
+
+.footer {
+    background-color: #3498db;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}

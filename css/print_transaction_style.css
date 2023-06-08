@@ -1,0 +1,46 @@
+/* FOR ADMIN PRINT TRANSACTION ALL USERS */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.receipt-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.receipt-table th,
+.receipt-table td {
+    padding: 8px;
+    border: 1px solid #000;
+}
+
+.receipt-table th {
+    background-color: #f2f2f2;
+    text-align: left;
+}
+
+.receipt-company {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.receipt-company h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.receipt-logo {
+    margin-left: 10px;
+    text-align: right;
+}
+
+.receipt-logo img {
+    max-height: 50px;
+}
+
+.receipt-address {
+    margin-bottom: 20px;
+    text-align: center;
+}
